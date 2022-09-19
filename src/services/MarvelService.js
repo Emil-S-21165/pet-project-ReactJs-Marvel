@@ -1,6 +1,4 @@
 
-
-
 class MarvelService {
     _apiBase = 'https://gateway.marvel.com:443/v1/public/';
     _apiKey = 'apikey=10ea0a94773f0843b4334f1b2831d22b';
@@ -27,12 +25,6 @@ class MarvelService {
     }
 
     _transformCharacter = (char) => {
-        if (char.description === null) {
-            char.description = 'This character has now describtion';
-        }
-        if (char.description.length > 250) {
-            char.description = char.description.slice(0, 250);
-        }
         return {
             name: char.name,
             description: char.description ? `${char.description.slice(0, 210)}...` : 'There is no description for this character',
