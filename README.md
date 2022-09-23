@@ -1,6 +1,5 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This pet-project was made as part of the React course, the project is an information portal about characters from the comics, using a public API. The project was made without using React Hooks. 
 
 ## Available Scripts
 
