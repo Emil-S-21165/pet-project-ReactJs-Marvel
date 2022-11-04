@@ -1,5 +1,22 @@
 
-This pet-project was made as part of the React course, the project is an information portal about characters from the comics, using a public API. The project was made without using React Hooks. 
+This pet project was made in React using class components as part of a React course on Udemy.
+
+This project is an information portal for the Marvel Universe, the data for the projects was taken from the Marvel Public API.
+The project is written in React using class and functional components without using hooks and state managers.
+The application logic is implemented in each individual component with props forwarding.
+
+project link -- https://pet-project-react-class-marvel.herokuapp.com/
+----------------------------------------------------------------------------------------
+
+Этот пет проект был сделан на React с использованием классовых компонетов, как часть курса React на Udemy.
+
+Данный проект является информационным порталом вселенной Marvel, данные для проектов были взяты из публичного API Marvel. 
+Проект написан на React с использованием классовых и функциональных компонетов без использования хуков и стейт менеджеров. 
+Логика приложения реализована в каждом отдельном компоненте с пробрасыванием пропсов.
+
+ссылка на проект -- https://pet-project-react-class-marvel.herokuapp.com/
+
+
 
 ## Available Scripts
 
